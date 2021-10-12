@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    color: floralwhite;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 800px;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#FFA07A 0%, #CD5C5C 100%);
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    background-color: DarkSalmon;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: beige;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.links:hover {
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none;
+}
